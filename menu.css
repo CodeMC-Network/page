@@ -19,10 +19,6 @@ nav ul{
     nav li.current{
     border-bottom: 3px solid #92D050;
     }
-    nav li:hover{
-    color: #E7DA66;
-    border-bottom: 3px solid #F0E475;
-    }
 
     h1{
         font-size: 18px;
