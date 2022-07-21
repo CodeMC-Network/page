@@ -2,7 +2,7 @@
 <html lang="ja">
     <head>
         <meta charset="UTF-8">
-        <title>チャット - CodeMC Network</title>
+        <title>システム - CodeMC Network</title>
         <link rel="shortcut icon" href="purin.ico">
         <link rel="stylesheet" href="menu.css">
     </head>
@@ -16,15 +16,23 @@
                     <nav>
                         <ul>
                             <li class="current"><a href="index.html">ホーム</a></li>
-                            <li><a href="index.html">ページ一覧</a></li>
+                            <li><a href="Info.html">概要</a></li>
                             <li><a href="news.html">お知らせ</a></li>
-                            <li><a href="info.html">概要</a></li>
                             <li><a href="contact.html">お問い合わせ</a></li>
+                            <li><a href="menu.html">ページ一覧</a></li>
                             <li><a href="system.html">システム</a></li>
                         </ul>
                     </nav>
                 </div>       
             </div>
         </header>
+
+        <p>会心率　+　会心ダメージ　+　攻撃力%　=　スコア</p>
+        <form oninput="add.value = Number(one.value) + Number(one.value) + Number(two.value) + Number(three.value);">
+            <input type="number" name="one" value="0" size="10" max="23.4"> +
+            <input type="number" name="two" value="0" size="10" max="46.6"> +
+            <input type="number" name="three" value="0" size="10" max="35.0"> =
+            <output name="add">0</output>
+        </form>
     </body>
 </html>
