@@ -32,3 +32,14 @@ nav{
     color:#F7CB4D;
     border-bottom:2px solid #F7CB4D;
     }
+
+footer{
+    width: 100%;
+    background-color: #FFFFCC;
+    margin: 0px;
+}
+
+footer h2{
+    text-align: center;
+
+}

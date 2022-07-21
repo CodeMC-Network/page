@@ -33,6 +33,17 @@ nav{
     border-bottom:2px solid #F7CB4D;
     }
 
-    #img{
-        text-align: center;
-    }
+#img{
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    background-color: #FFFFCC;
+    margin: 0px;
+}
+
+footer h2{
+    text-align: center;
+
+}

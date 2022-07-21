@@ -1,0 +1,103 @@
+h1 {
+    color: #6594e0;
+    text-align: center;
+    border-bottom: dashed 2px #6594e0;
+   }
+
+nav{
+    text-align: center;
+    }
+    nav ul{
+    margin: 0 ;
+    padding: 0 ;
+    }
+    nav li{
+    list-style: none;
+    display: inline-block;
+    width: 10%;
+    min-width: 90px;
+    }
+    nav li:not(:last-child){
+    border-right:2px solid #ddd;
+    }
+    nav a{
+    text-decoration: none;
+    color: #333;
+    }
+    nav a.current{
+    color: #00B0F0;
+    border-bottom:2px solid #00B0F0;
+    }
+    nav a:hover{
+    color:#F7CB4D;
+    border-bottom:2px solid #F7CB4D;
+    }
+
+#wiki{
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    background-color: #FFFFCC;
+    margin: 0px;
+}
+
+footer h2{
+    text-align: center;
+
+}
+
+
+ul.sidenav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: #f1f1f1;
+	position: relative;
+	overflow: auto;
+}
+ul.sidenav li a {
+	display: block;
+	color: #000000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+ul.sidenav li a.active {
+	background-color: #B9C42F;
+	color: white;
+}
+ul.sidenav li a:hover:not(.active) {
+	background-color: #AFDFE4;
+	color: white;
+}
+div.content {
+	margin-left: 25%;
+	padding: 1px 16px;
+	height: 1000px;
+}
+@media screen and (max-width: 900px) {
+	ul.sidenav {
+		width: 100%;
+		height: auto;
+		position: relative;
+	}
+	ul.sidenav li a {
+		float: left;
+		padding: 15px;
+	}
+	div.content {
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 480px) {
+	ul.sidenav li a {
+		text-align: center;
+		float: none;
+	}
+}
+
+.text {
+    padding: 20px 10%;
+}
